@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tabs demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="tabs" data-tabs="tab">
+    <ul class="tabs__nav">
+      <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Один</button></li>
+      <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Два</button></li>
+      <li class="tabs__nav-item"><button class="tabs__nav-btn" type="button">Три</button></li>
+    </ul>
+
+    <div class="tabs__content">
+      <div class="tabs__panel" data-tabs="tab2">
+        <ul class="tabs__nav-1">
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Один Один</button></li>
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Один Два</button></li>
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Один Три</button></li>
+        </ul>
+        <div class="tabs__content-1">
+          <div class="tabs__panel-1">Один Один контент</div>
+          <div class="tabs__panel-1">Один Два контент</div>
+          <div class="tabs__panel-1">Один Три контент</div>
+        </div>
+      </div>
+
+      <div class="tabs__panel" data-tabs="tab3">
+        <ul class="tabs__nav-1">
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Два Один</button></li>
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Два Два</button></li>
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Два Три</button></li>
+        </ul>
+        <div class="tabs__content-1">
+          <div class="tabs__panel-1">Два Один контент</div>
+          <div class="tabs__panel-1">Два Два контент</div>
+          <div class="tabs__panel-1">Два Три контент</div>
+        </div>
+      </div>
+
+      <div class="tabs__panel" data-tabs="tab4">
+        <ul class="tabs__nav-1">
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Три Один</button></li>
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Три Два</button></li>
+          <li class="tabs__nav-item-1"><button class="tabs__nav-btn-1" type="button">Три Три</button></li>
+        </ul>
+        <div class="tabs__content-1">
+          <div class="tabs__panel-1">Три Один контент</div>
+          <div class="tabs__panel-1">Три Два контент</div>
+          <div class="tabs__panel-1">Три Три контент</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
